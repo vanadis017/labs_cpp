@@ -10,7 +10,7 @@ int main() {
 
     ifstream in(filename, ios::binary);
     if (!in) {
-        cerr << "Не удалось открыть файл: " << filename << endl;
+        cerr << "Failed: " << filename << endl;
         return 1;
     }
 
